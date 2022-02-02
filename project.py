@@ -1,34 +1,23 @@
-#task 1
+""" name = ["rafi""ashfaq""hussain"]
+for i in range(0,6):
+    try :
+        print(names[i])
+    except:
+        print("There is no more name")
 
-sentence = "ASK NOT WHAT YOUR COUNTRY CAN DO FOR YOU ASK WHAT YOU CAN DO FOR YOUR COUNTRY"
-sentence = sentence.split()
-word = "COUNTRY"
-positions = []
+print("program continuing") """
 
-for i in range(len(sentence)):
-    if sentence[i] == word:
-        positions.append(i+1)
 
-print(positions)
+age = ""
+while isinstance(age,str):
+    try:
+        age = int(input("Enter age:"))
+    except:
+        print("error")
 
-sentence = "ASK NOT WHAT YOUR COUNTRY CAN DO FOR YOU ASK WHAT YOU CAN DO FOR YOUR COUNTRY"
-sentence = sentence.split()
-word = "YOUR"
-positions = []
+print("success")
 
-for i in range(len(sentence)):
-    if sentence[i] == word:
-        positions.append(i+1)
 
-        print(positions)
 
-        sentence = "ASK NOT WHAT YOUR COUNTRY CAN DO FOR YOU ASK WHAT YOU CAN DO FOR YOUR COUNTRY"
-        sentence = sentence.split()
-        word = "ASK"
-        positions = []
-        
-        for i in range(len(sentence)):
-            if sentence[i] == word:
-                positions.append(i+1)
 
-                print(positions)
+

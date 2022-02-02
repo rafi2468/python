@@ -8,16 +8,25 @@ for i in range(0,6):
 print("program continuing") """
 
 
-age = ""
+""" age = ""
 while isinstance(age,str):
     try:
         age = int(input("Enter age:"))
     except:
         print("error")
 
-print("success")
+print("success") """
 
 
+temp = 0
+totaltemp = 0
+numberoftemps = 0
+while temp != -100
+    print("enter next temp")
+    temp = input("temp")
+    totaltemp += temp
+    numberoftemps += 
+                
 
 
 

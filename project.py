@@ -21,11 +21,15 @@ print("success") """
 temp = 0
 totaltemp = 0
 numberoftemps = 0
-while temp != -100
-    print("enter next temp")
-    temp = input("temp")
+print("enter next temp")
+temp =int(input(""))
+while temp != -100:
     totaltemp += temp
-    numberoftemps += 
+    numberoftemps += 1
+    print("enter next temp")
+    temp =int(input(""))
+averagetemp = totaltemp/numberoftemps
+print(averagetemp)
                 
 
 

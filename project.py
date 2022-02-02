@@ -17,7 +17,7 @@ while isinstance(age,str):
 
 print("success") """
 
-
+""" 
 temp = 0
 totaltemp = 0
 numberoftemps = 0
@@ -29,8 +29,23 @@ while temp != -100:
     print("enter next temp")
     temp =int(input(""))
 averagetemp = totaltemp/numberoftemps
-print(averagetemp)
+print(averagetemp) """
                 
+
+print("enter w for weekend , b for bank holiday or d for weekday")
+day = input("")
+print("enter a for adult , c for child")
+visitor = input("")
+if ((day == "w") or (day == "b")) and (visitor == "a"):
+    charge = 12.0
+elif ((day == "w") or (day == "b")) and (visitor == "c"):
+    charge = 7.5
+elif (visitor == "a"):
+    charge = 8.0
+else:
+    charge = 5.0
+print(charge)
+     
 
 
 

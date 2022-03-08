@@ -1,8 +1,15 @@
-print(x)
-og.text = input("enter a string:")
-print(len(og.text))
+def averageoflist():
+    sumOfNumbers = 10
+    total = 0
+    for t in range(sumOfNumbers):
+        score = int(input("enter score "))
+        total += score
 
-for x in og.text:
+    avg = total / sumOfNumbers
+    return avg
+
+print(averageoflist())
+
 
 
 

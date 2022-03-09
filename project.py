@@ -8,7 +8,6 @@ def averageoflist():
     avg = total / sumOfNumbers
     return avg
 
-print(averageoflist())
 
 
 

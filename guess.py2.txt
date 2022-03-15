@@ -1,1 +1,0 @@
-enter("Welcome to Guess The Word Game" )

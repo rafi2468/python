@@ -13,10 +13,14 @@ def will_hit(equation, player_coordinaters):
         b= character + equation[-1]
     else:
         b= equation[-1]
-    
-    x,y = position
+    m = int(m)
+    b = int(b)
+    x,y = player_coordinaters
     if (m*x + b == y):
-         return True
-
+        return True
     else:
         return False
+    
+
+
+print(will_hit("y = 2x + 1", (1,4)))

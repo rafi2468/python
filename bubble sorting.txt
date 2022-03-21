@@ -1,2 +1,0 @@
-mylist = [4,3,1,2,6,5]
-for j in range (0,len)
